@@ -1,0 +1,30 @@
+{
+    "name": "administrator/zhangbo-frame",
+    "description": "good",
+    "type": "project",
+    "authors": [
+        {
+            "name": "zhangbo",
+            "email": "27153344@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload":{
+        "files":[
+            "system/helper.php"
+        ],
+        "psr-4":{
+            "houdunwang\\":"houdunwang",
+            "app\\":"app"
+        }
+    },
+
+
+
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
